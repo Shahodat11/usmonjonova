@@ -1,0 +1,18 @@
+
+.about-h3
+.nav-link1{
+    display: flex;
+}
+.about-h3{
+    font-weight: 700;
+    font-size: 1.8rem;
+    margin-bottom: 3rem;
+    color: #7c3822;
+}
+.about-p{
+    font-size: 1.2rem;
+    color: #7c3822c7;
+    max-width: 60rem;
+    line-height: 1.7;
+    margin-bottom: 1rem;
+}

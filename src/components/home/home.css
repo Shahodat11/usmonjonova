@@ -1,0 +1,45 @@
+.home{
+    display: flex;
+    background: #fff0f5;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(../../assets/img.webp);
+    background-size: cover;
+    background-position: center;
+}
+.homee{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+}
+.home-h1{
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+    color: rgb(44, 156, 44);
+    font-weight: 800;
+    padding-top: 40px;
+}
+.home-p {
+    color: rgb(44, 156, 44);
+    font-size: 24px;
+    text-align: center;
+    width: 100%;
+    line-height: 1.6;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.home-button{
+    padding: 16px 62px;
+    font-size: 20px;
+    background-color: rgb(44, 156, 44);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: transform .3s;
+    cursor: pointer;
+}
