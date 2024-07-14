@@ -25,19 +25,25 @@ const Project = () => {
                   using React. Used: Redux Toolkit, SCSS, Swiper, React Router
                   DOM...
                 </p>
+                <a href=" https://8oy-exem.vercel.app/">
+                  <button className="project-button">VIEW</button>
+                </a>
               </div>
             </div>
             <div className="nav-link2">
               <div className="nav1">
-                <img className="img" src={img1} alt="" />
+                <img className="img" src={img2} alt="" />
               </div>
               <div className="nav2">
-                <h3 className="project-h3">Nornlight </h3>
+                <h3 className="project-h3">E-Comm</h3>
                 <p className="project-p">
-                  Norтlight is one of my most successful projects. It is made
-                  using React. Used: Redux Toolkit, SCSS, Swiper, React Router
-                  DOM...
+                  E-Comm is a successful project I created, well designed and
+                  responsive, using API, React, React-Router-Dom, RTK, SCSS,
+                  Redux-toolkit.
                 </p>
+                <a href="https://7oy-exem.vercel.app/">
+                  <button className="project-button">VIEW</button>
+                </a>
               </div>
             </div>
           </div>

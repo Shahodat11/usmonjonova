@@ -1,6 +1,3 @@
-.container .nav ul li .navbar-a.active {
-  color: #d3b86e;
-}/*# sourceMappingURL=navbar.css.map */
 .header{
   background-color: #f8fbf9;
   position: fixed;
@@ -33,7 +30,7 @@ a{
   font-size: 21px;
   font-weight: 600;
 }
-a:hover{
+ul:hover{
   color: rgb(115, 208, 115);
   transition: all .3s linear;
 }
@@ -48,8 +45,8 @@ header {
 }
 
 .nav {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 13px;
+  padding-bottom: 13px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -61,11 +58,6 @@ ul {
   align-items: center;
   gap: 40px;
 }
-/* a {
-  text-decoration: none;
-  color: #777
-} */
-
 .navbar__item {
   width: 22px;
   height: 22px;
@@ -73,7 +65,8 @@ ul {
 }
 
 a:hover {
-  color: #000;
+  color: rgb(148, 205, 148);
+  transition: all .3s linear;
 }
 
 #navbar-responsive.open {
@@ -97,7 +90,16 @@ a:hover {
   height: 4px;
   background-color: #000;
 }
-
+.navbar__btn {
+  padding: 13px 20px;
+  border-radius: 40px;
+  border: 3px solid rgb(148, 205, 148);
+  background-color: transparent;
+  color: rgb(44, 156, 44);
+  font-size: 17px;
+  cursor: pointer;
+  font-weight: 600;
+}
 @media (max-width: 850px) {
   header .nav #navbar-responsive {
     position: fixed;
@@ -144,5 +146,5 @@ a:hover {
 }
 
 #navbar-responsive {
-  top: 56px;
+  top: 40px;
 }

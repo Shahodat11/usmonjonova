@@ -61,7 +61,9 @@ const Navbar = () => {
                 </li>
               </NavLink>
               <li>
-                <a href="#">Contact</a>
+                <a href="https://www.canva.com/design/DAGKtpG6a0A/Whv8avIWJOlJtHKKRgXAnw/edit">
+                  <button className="navbar__btn">My Resume</button>
+                </a>
               </li>
             </ul>
             <button className="menu-btn" id="menu-btn" onClick={toggleNavbar}>

@@ -1,0 +1,56 @@
+.contakt{
+    background-image: url(../../assets/img.webp);
+}
+.contact1{
+    box-shadow: rgb(148, 205, 148) 0 7px 29px;
+    background: #fff;
+    padding: 4rem;
+    margin-top: 4rem;
+    max-width: 57rem;
+    text-align: right;
+    width: 90%;
+    border-radius: 5px;
+    margin: 5rem auto 0;
+}
+form {
+    display: block;
+    margin-top: 0em;
+    unicode-bidi: isolate;
+}
+.contact__form-field {
+    margin-bottom: 2rem;
+}
+.contact__form-input {
+    color: #333;
+    padding: 1.2rem;
+    width: 100%;
+    border: 1px solid #ebebeb;
+    font-size: 1rem;
+    letter-spacing: 0px;
+    background: #f0f0f0;
+    border-radius: 5px;
+    font-weight: 600;
+    outline: none;
+}
+.contact__form-label {
+    color: #666;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    display: block;
+    text-align: left;
+}
+.contact__btn {
+    border-radius: 10px;
+    box-shadow: 0 5px 15px #00000026;
+    transition: transform .3s;
+    background-color: rgb(44, 156, 44);
+    color: #fff;
+    border: none;
+    padding: 20px 66px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
