@@ -1,4 +1,5 @@
 .contakt{
+    padding-bottom: 100px;
     background-image: url(../../assets/img.webp);
 }
 .contact1{
@@ -53,4 +54,15 @@ form {
     font-size: 18px;
     font-weight: 700;
     text-transform: uppercase;
+}
+.cantact-h2 {
+    padding-top: 100px;
+    display: block;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-bottom: 3.5rem;
+    position: relative;
+    color: rgb(44, 156, 44);
 }

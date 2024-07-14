@@ -13,11 +13,11 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    let text = "Buyurtma %0A%0A";
+    let text = "tell me %0A%0A";
     text += `Ismi: <b>${data.fullname}</b> %0A`;
     text += `Tel: <b>${data.telefon}</b> %0A`;
     text += `Email: ${data.email} %0A`;
-    let url = `https://api.telegram.org/bot${BOT_TOKEN}/sendMessage?chat_id=${USER_ID}&text=${text}&parse_mode=html`;
+    let url = `https://api.telegram.org/bot${BOT_TOKEN}/sendMessage?chat_id=${CHAT_ID}&text=${text}&parse_mode=html`;
     let api = new XMLHttpRequest();
     api.open("GET", url, true);
     api.send();
@@ -26,7 +26,7 @@ const Contact = () => {
     <>
       <div className="contakt">
         <div className="container">
-          <h2 className="about-h2">CONTACT</h2>
+          <h2 className="cantact-h2">CONTACT</h2>
           <p className="home-p">
             Here you will find more information about me, what I do, and my
             current skills mostly in terms of programming and technology
