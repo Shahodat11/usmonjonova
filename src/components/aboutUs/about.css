@@ -1,18 +1,48 @@
-
-.about-h3
+.about{
+    background-color: #f8fbf9;
+    padding: 100px 0;
+}
+.about-h2{
+    display: block;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-bottom: 3.5rem;
+    position: relative;
+    color: rgb(44, 156, 44);
+}
 .nav-link1{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10rem;
 }
 .about-h3{
+    padding-top: 95px;
     font-weight: 700;
     font-size: 1.8rem;
     margin-bottom: 3rem;
-    color: #7c3822;
+    color: rgb(44, 156, 44);
 }
 .about-p{
     font-size: 1.2rem;
-    color: #7c3822c7;
+    color: rgb(44, 156, 44);
     max-width: 60rem;
     line-height: 1.7;
     margin-bottom: 1rem;
+}
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+}
+.button{
+    padding: .8rem 1.2rem;
+    margin-bottom: .75rem;
+    margin-right: .75rem;
+    font-size: .8rem;
+    border: 2px solid rgb(179, 255, 179);
+    background: rgb(194, 255, 194);
+    border-radius: 5px;
+    font-weight: 600;
+    color: rgb(44, 156, 44);
 }

@@ -15,32 +15,34 @@ const AboutUs = () => {
             <div className="nav1">
               <h3 className="about-h3">Get to know me!</h3>
               <p className="about-p">
-                This resonates so deeply with me because I have no desire to
-                make pretty things just for the sake of it. Some people love
-                that! But it's not for me. I only want to make, design or build
-                ideas and products that are real, that matter and have an impact
-                in the world.
+                I am a <b>Frontend Web Developer</b>. It resonates very deeply.
+                Some people love it! I just want to create, design and build
+                ideas and products that matter and impact the world. I
+                <b> also </b>
+                intend to be among the <b>top 10 IT</b> developers.
               </p>
               <p className="about-p">
-                I'm open to Job opportunities where I can contribute, learn and
-                grow. If you have a good opportunity that matches my skills and
-                experience then don't hesitate to contact me
+                I'm open to <b>Job</b> opportunities where I can contribute,
+                learn and grow. If you have a good opportunity that matches my
+                skills and <b>experience</b> then don't hesitate to
+                <b> contact</b> me)
               </p>
             </div>
             <div className="nav2">
-              <h3>My Skills</h3>
+              <h3 className="about-h3">My Skills</h3>
               <div className="buttons">
-                <button>HTML</button>
-                <button>CSS</button>
-                <button>JavaScript</button>
-                <button>React JS</button>
-                <button>SASS</button>
-                <button>GitHub</button>
-                <button>TypeScript</button>
-                <button>Bootstrap</button>
-                <button>Next JS</button>
-                <button>TailwindCSS</button>
-                <button>Redux</button>
+                <button className="button">HTML</button>
+                <button className="button">CSS</button>
+                <button className="button">JavaScript</button>
+                <button className="button">React JS</button>
+                <button className="button">SASS</button>
+                <button className="button">GitHub</button>
+                <button className="button">TypeScript</button>
+                <button className="button">Bootstrap</button>
+                <button className="button">Next JS</button>
+                <button className="button">TailwindCSS</button>
+                <button className="button">Redux</button>
+                <button className="button">Versel</button>
               </div>
             </div>
           </div>

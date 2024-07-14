@@ -38,12 +38,14 @@ const Navbar = () => {
               className={`nav-items ${isOpen ? "open" : ""}`}
               id="navbar-responsive"
             >
-              <NavLink to="/">
+              <NavLink to={`/`}>
                 <li>
-                  <a href="#">Home</a>
+                  <a id="home" href="#">
+                    Home
+                  </a>
                 </li>
               </NavLink>
-              <NavLink to="/aboutUs">
+              <NavLink id="aboutUs" to={`/aboutUs`}>
                 <li>
                   <a href="#">About</a>
                 </li>
@@ -58,6 +60,9 @@ const Navbar = () => {
                   <a href="#">Contact</a>
                 </li>
               </NavLink>
+              <li>
+                <a href="#">Contact</a>
+              </li>
             </ul>
             <button className="menu-btn" id="menu-btn" onClick={toggleNavbar}>
               <span className="line"></span>

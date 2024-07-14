@@ -3,13 +3,12 @@ import img from "../../assets/img.webp";
 import Navbar from "../navbar/Navbar";
 import "../home/home.css";
 import { NavLink } from "react-router-dom";
-import AboutUs from "../aboutUs/AboutUs";
 
 const Home = () => {
   return (
     <>
       <Navbar />
-      <div className="home">
+      <div className="home" id="home">
         <div className="container">
           <div className="homee">
             <h1 className="home-h1">SHAHODAT USMONJONOVA</h1>
@@ -21,10 +20,8 @@ const Home = () => {
               <button className="home-button">Projects</button>
             </NavLink>
           </div>
-          {/* <img src={img} alt="" /> */}
         </div>
       </div>
-      <AboutUs />
     </>
   );
 };
